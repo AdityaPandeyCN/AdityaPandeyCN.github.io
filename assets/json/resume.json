@@ -34,7 +34,7 @@
       "url": "https://evovest.com/",
       "startDate": "2026-04-15",
       "endDate": "",
-      "summary": "GPU backends and differentiable tabular models in Julia.",
+      "summary": "Consultancy on the open-source software stack for Evovest.",
       "highlights": [
         "Rewrote EvoTrees.jl GPU backend with KernelAbstractions.jl.",
         "Delivered NeuroTabModels.jl covering TabM, TabReD, and ModernNCA with multi-backend AD."

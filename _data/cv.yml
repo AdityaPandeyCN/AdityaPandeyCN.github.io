@@ -36,7 +36,7 @@ cv:
         location: Remote
         start_date: 2026-04-15
         end_date: present
-        summary: GPU backends and differentiable tabular models in Julia.
+        summary: Consultancy on the open-source software stack for Evovest.
         highlights:
           - "Rewrote the EvoTrees.jl GPU backend using KernelAbstractions.jl for vendor-agnostic kernel execution, achieving CUDA performance parity with XGBoost."
           - "Reduced kernel launch overhead and implemented GPU-side histogram, gradient, and gain computations for gradient boosted trees."

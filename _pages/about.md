@@ -29,6 +29,6 @@ latest_posts:
 
 I am **Aditya Pandey**. I graduated with a B.Tech from [Birla Institute of Technology, Mesra](https://www.bitmesra.ac.in/) in May 2026. I work on open-source scientific computing: GPU kernels, high-performance I/O, and computational neuroscience.
 
-I have been a [Google Summer of Code](https://summerofcode.withgoogle.com/) contributor twice: with [INCF](https://www.incf.org/) (2024), building an SWC to NeuroML morphology converter, and with [CERN-HSF](https://hepsoftwarefoundation.org/) (2025), extending ROOT for genomic data via RNTuple. Since April 15, 2026 I have been an open-source software consultant at [Evovest](https://evovest.com/), working on GPU backends and differentiable tabular models in Julia.
+I have been a [Google Summer of Code](https://summerofcode.withgoogle.com/) contributor twice: with [INCF](https://www.incf.org/) (2024), building an SWC to NeuroML morphology converter, and with [CERN-HSF](https://hepsoftwarefoundation.org/) (2025), extending ROOT for genomic data via RNTuple. Since April 15, 2026 I have been consulting for [Evovest](https://evovest.com/) on their open-source software stack.
 
 My interests sit at the intersection of systems programming (Julia, C++, CUDA), machine learning, and neuroinformatics. Feel free to [email me](mailto:adityapand3y666@gmail.com) or find me on GitHub and LinkedIn.
