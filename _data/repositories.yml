@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - AdityaPandeyCN
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - AdityaPandeyCN/ramtools
+  - AdityaPandeyCN/rubikscube-solver
+  - AdityaPandeyCN/EvoTrees.jl
+  - AdityaPandeyCN/NeuroTabModels.jl
+  - AdityaPandeyCN/Neuroml
+  - AdityaPandeyCN/ParallelParticleSwarms.jl
