@@ -1,34 +1,66 @@
 ---
-layout: about
-title: about
+layout: default
+title: home
 permalink: /
-subtitle: Engineering, Open Source, Computational Neuroscience
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Birla Institute of Technology, Mesra</p>
-    <p>Ranchi, India</p>
-    <p><a href="mailto:adityapand3y666@gmail.com">adityapand3y666@gmail.com</a></p>
-
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+description: Performance engineering for numerical and machine learning software.
 ---
 
-I am **Aditya Pandey**. I graduated with a B.Tech from [Birla Institute of Technology, Mesra](https://www.bitmesra.ac.in/) in May 2026. I work on open-source scientific computing: GPU kernels, high-performance I/O, and computational neuroscience.
+<link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
 
-I have been a [Google Summer of Code](https://summerofcode.withgoogle.com/) contributor twice: with [INCF](https://www.incf.org/) (2024), building an SWC to NeuroML morphology converter, and with [CERN-HSF](https://hepsoftwarefoundation.org/) (2025), extending ROOT for genomic data via RNTuple. Since April 15, 2026 I have been consulting for [Evovest](https://evovest.com/) on their open-source software stack.
+<section class="pf-intro">
+  <div class="pf-photo">
+    <div class="pf-photo-crop">
+      <img src="{{ 'assets/img/prof_pic.jpg' | relative_url }}" alt="Aditya Pandey" width="1000" height="1000">
+    </div>
+  </div>
+  <div class="pf-intro-text">
+    <h1>Aditya Pandey</h1>
+    <p>
+      I work on the performance of numerical and machine learning software: GPU kernels, compiled training loops, automatic differentiation, and the
+      I/O that feeds them.
+    </p>
+    <p>
+      I'm currently consulting for <a href="https://evovest.com/">Evovest</a> on their open-source machine learning stack, and I'm open to contract work on
+      GPU and performance problems.
+    </p>
+    <p class="pf-links">
+      <a href="mailto:adityapand3y666@gmail.com">Email</a>
+      <a href="https://github.com/AdityaPandeyCN">GitHub</a>
+      <a href="https://www.linkedin.com/in/aditya-pandey-019482200">LinkedIn</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+    </p>
+  </div>
+</section>
 
-My interests sit at the intersection of systems programming (Julia, C++, CUDA), machine learning, and neuroinformatics. Feel free to [email me](mailto:adityapand3y666@gmail.com) or find me on GitHub and LinkedIn.
+<section class="pf-section">
+  <h2>Work</h2>
+  <ul class="pf-list">
+    <li>
+      <a href="{{ '/work/evotrees/' | relative_url }}">EvoTrees.jl</a> <span class="pf-org">Evovest</span>
+      <p>Rewrote the GPU backend of a gradient-boosting library with KernelAbstractions.jl, so the same kernels run on NVIDIA, AMD and Apple GPUs.</p>
+    </li>
+    <li>
+      <a href="{{ '/work/neurotabmodels/' | relative_url }}">NeuroTabModels.jl</a> <span class="pf-org">Evovest</span>
+      <p>Rebuilt training for a tabular deep learning library on Lux.jl and Reactant.jl, and added TabM, ModernNCA and numerical embeddings.</p>
+    </li>
+    <li>
+      <a href="{{ '/work/parallel-particle-swarms/' | relative_url }}">ParallelParticleSwarms.jl</a> <span class="pf-org">SciML</span>
+      <p>Restructured the GPU kernels of a particle swarm optimizer so they scale with problem size, and rewrote its L-BFGS local search.</p>
+    </li>
+    <li>
+      <a href="{{ '/work/ramtools/' | relative_url }}">RAMTools</a> <span class="pf-org">CERN-HSF</span>
+      <p>Built tools for RAM, a ROOT-based format for genomic alignment data, during Google Summer of Code 2025: multithreaded conversion from SAM and BAM, and index-free region queries.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="pf-section">
+  <h2>Things I can help with</h2>
+  <ul class="pf-plain">
+    <li>Porting CUDA-only code to kernels that run on any GPU vendor</li>
+    <li>Profiling and restructuring GPU kernels</li>
+    <li>Compiling and differentiating models through XLA and Enzyme</li>
+    <li>Multithreaded I/O and columnar data formats</li>
+    <li>Benchmark suites that catch regressions</li>
+  </ul>
+</section>

@@ -1,10 +1,10 @@
 cv:
   name: Aditya Pandey
-  label: Open Source Developer
+  label: GPU and Performance Engineer
   email: adityapand3y666@gmail.com
   location: Ranchi, India
   image: ""
-  summary: B.Tech graduate from BIT Mesra (2026). Open-source developer working on scientific computing, GPU kernels, high-performance I/O, and computational neuroscience.
+  summary: GPU and performance engineer working on machine learning and scientific computing libraries. B.Tech from Birla Institute of Technology, Mesra (2026).
 
   social_networks:
     - network: GitHub
@@ -38,7 +38,7 @@ cv:
         end_date: present
         summary: Consultancy on the open-source software stack for Evovest.
         highlights:
-          - "Rewrote the EvoTrees.jl GPU backend using KernelAbstractions.jl for vendor-agnostic kernel execution, achieving CUDA performance parity with XGBoost."
+          - "Rewrote the EvoTrees.jl GPU backend using KernelAbstractions.jl for vendor-agnostic kernel execution."
           - "Reduced kernel launch overhead and implemented GPU-side histogram, gradient, and gain computations for gradient boosted trees."
           - "Delivered a full contract on NeuroTabModels.jl covering TabM, temporal embeddings (TabReD), and ModernNCA, with multi-backend AD across Enzyme, Zygote, Mooncake, and Reactant."
 
@@ -49,8 +49,8 @@ cv:
         end_date: 2025-11
         summary: Extended ROOT for genomic data using RNTuple.
         highlights:
-          - "Developed RAMTools, extending ROOT's data processing framework for genomic data using the RNTuple columnar storage format in C++."
-          - "Implemented high-performance I/O achieving 2.5x faster region queries and 6.3x compression versus standard formats."
+          - "Developed RAMTools, the C++ tools for RAM (ROOT Alignment/Map), a format that stores genomic alignment data in ROOT's RNTuple columnar storage."
+          - "Implemented multithreaded conversion from SAM and BAM, and region queries by binary search over the columns."
 
       - company: INCF (International Neuroinformatics Coordinating Facility)
         position: Open Source Developer, Google Summer of Code
@@ -67,7 +67,6 @@ cv:
         summary: Efficient Rubik's Cube solver in C++ using BFS, DFS, IDDFS, and Korf's IDA* with pattern databases.
         highlights:
           - "Modeled a virtual 3x3 cube in 3 representations using C++ data structures."
-          - "Solved 8-move scrambles under 3 seconds and 13-move scrambles under 10 seconds."
         start_date: 2024-07
         end_date: 2024-07
         url: https://github.com/AdityaPandeyCN/rubikscube-solver

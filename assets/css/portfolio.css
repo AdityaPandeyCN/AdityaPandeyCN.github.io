@@ -1,0 +1,137 @@
+/* Home and work pages. Colors come from the theme's variables so light and dark mode both work. */
+
+.pf-intro {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1rem 0 0.5rem;
+}
+
+.pf-intro-text {
+  flex: 1;
+  max-width: 40rem;
+}
+
+/* Circular photo on a slightly larger tinted circle. */
+.pf-photo {
+  flex-shrink: 0;
+  width: 13rem;
+  height: 13rem;
+  padding: 0.6rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--global-theme-color) 14%, transparent);
+}
+
+.pf-photo-crop {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* Zoom in on the face: the source is a square half-length portrait. */
+.pf-photo-crop img {
+  display: block;
+  width: 130%;
+  max-width: none;
+  height: auto;
+  margin-left: -20%;
+}
+
+@media (max-width: 720px) {
+  .pf-intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .pf-photo {
+    width: 9rem;
+    height: 9rem;
+    padding: 0.45rem;
+  }
+}
+
+.pf-intro h1 {
+  margin: 0 0 1.25rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.pf-intro p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.pf-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.pf-section {
+  padding-top: 2rem;
+  max-width: 40rem;
+}
+
+.pf-section > h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--global-text-color-light);
+}
+
+.pf-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pf-list li {
+  padding: 0.6rem 0;
+}
+
+.pf-list li p {
+  margin: 0.15rem 0 0;
+  line-height: 1.6;
+}
+
+.pf-org {
+  margin-left: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+.pf-plain {
+  margin: 0;
+  padding-left: 1.1rem;
+  line-height: 1.8;
+}
+
+.pf-facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1.5rem;
+  margin: 0 0 2rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.95rem;
+}
+
+.pf-facts dt {
+  font-weight: 400;
+  color: var(--global-text-color-light);
+}
+
+.pf-facts dd {
+  margin: 0;
+}
+
+.pf-note {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
