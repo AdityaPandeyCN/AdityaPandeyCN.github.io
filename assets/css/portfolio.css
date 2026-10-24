@@ -1,5 +1,32 @@
 /* Home and work pages. Colors come from the theme's variables so light and dark mode both work. */
 
+/* Particle swarm canvas behind the top of the home page (assets/js/swarm.js). */
+.pf-swarm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: min(100vh, 900px);
+  z-index: -1;
+  pointer-events: none;
+  /* Fade out towards the bottom, and keep it at half strength under the text column. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent), linear-gradient(to right, rgba(0, 0, 0, 0.5) 50%, #000 75%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to bottom, #000 55%, transparent), linear-gradient(to right, rgba(0, 0, 0, 0.5) 50%, #000 75%);
+  mask-composite: intersect;
+}
+
+@media (max-width: 720px) {
+  .pf-swarm {
+    opacity: 0.6;
+  }
+}
+
+.pf-caption {
+  margin-top: 3rem;
+  max-width: 40rem;
+}
+
 .pf-intro {
   display: flex;
   flex-direction: row-reverse;

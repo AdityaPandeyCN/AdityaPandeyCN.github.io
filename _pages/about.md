@@ -6,6 +6,8 @@ description: Performance engineering for numerical and machine learning software
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+<canvas id="pf-swarm" class="pf-swarm" aria-hidden="true"></canvas>
+<script src="{{ '/assets/js/swarm.js' | relative_url }}" defer></script>
 
 <section class="pf-intro">
   <div class="pf-photo">
@@ -64,3 +66,8 @@ description: Performance engineering for numerical and machine learning software
     <li>Benchmark suites that catch regressions</li>
   </ul>
 </section>
+
+<p class="pf-note pf-caption">
+  The background is a particle swarm searching a randomly generated landscape for its lowest point, the method
+  <a href="{{ '/work/parallel-particle-swarms/' | relative_url }}">ParallelParticleSwarms.jl</a> runs on GPUs.
+</p>
