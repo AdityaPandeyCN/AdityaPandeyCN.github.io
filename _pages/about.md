@@ -35,7 +35,7 @@ description: Performance engineering for numerical and machine learning software
 </section>
 
 <section class="pf-section">
-  <h2>Work</h2>
+  <h2>Selected work</h2>
   <ul class="pf-list">
     <li>
       <a href="{{ '/work/evotrees/' | relative_url }}">EvoTrees.jl</a> <span class="pf-org">Evovest</span>
@@ -51,7 +51,7 @@ description: Performance engineering for numerical and machine learning software
     </li>
     <li>
       <a href="{{ '/work/ramtools/' | relative_url }}">RAMTools</a> <span class="pf-org">CERN-HSF</span>
-      <p>Built tools for RAM, a ROOT-based format for genomic alignment data, during Google Summer of Code 2025: multithreaded conversion from SAM and BAM, and index-free region queries.</p>
+      <p>Built RAM, a ROOT-based format for genomic alignment data, and RAMTools for working with it during Google Summer of Code 2025: multithreaded conversion from SAM and BAM, and index-free region queries.</p>
     </li>
   </ul>
 </section>

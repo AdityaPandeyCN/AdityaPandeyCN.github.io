@@ -1,10 +1,9 @@
 cv:
   name: Aditya Pandey
-  label: GPU and Performance Engineer
   email: adityapand3y666@gmail.com
   location: Ranchi, India
   image: ""
-  summary: GPU and performance engineer working on machine learning and scientific computing libraries. B.Tech from Birla Institute of Technology, Mesra (2026).
+  summary: I work on the performance of numerical and machine learning software, including GPU kernels, compiled training loops, automatic differentiation, and the I/O that feeds them.
 
   social_networks:
     - network: GitHub
@@ -92,7 +91,7 @@ cv:
         level: Advanced
         keywords: "Git, GitHub Actions, CMake, Docker"
 
-    Awards:
+    Achievements:
       - title: Pre-Regional Mathematics Olympiad Qualifier
         date: 2017-09
         awarder: Homi Bhabha Centre for Science Education
